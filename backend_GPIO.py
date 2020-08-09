@@ -1,7 +1,8 @@
 import RPi.GPIO as GPIO
+import Adafruit_python_DHT  as DHT
 
 
-class Relay(object):
+class RELAY(object):
     def __init__(self,pin,name):
         self.pin = pin
         self.name name

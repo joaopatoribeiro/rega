@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -111,9 +112,10 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.808@0.23.1440.808" timestamp="1596930521793" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597010168820">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597013822182">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1597013822182" />
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1597010168820" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1597010015916" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1597011449187">

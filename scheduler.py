@@ -1,7 +1,9 @@
 import schedule
 from  time import sleep
 from backend_GPIO import RELAY, DHT_SENSOR, READ_CPU_TEMP
+import logging
 
+logging.basicConfig(filename='rega.log', filemode='w', format='%(asctime)s: %(name)s - %(levelname)s - %(message)s')
 
 relay1=RELAY(14,"relay1")
 relay2=RELAY(15,"relay2")

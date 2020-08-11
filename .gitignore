@@ -1,4 +1,10 @@
 /.ipynb_checkpoints
 Untitled.ipynb
+<<<<<<< HEAD
 /RPI/rega.log
 /RPI/__pycache__
+=======
+/RPI/__pycache__
+/RPI/rega.log
+
+>>>>>>> 42996f3211e1a55c39e11460f96f3bbc9975ba07

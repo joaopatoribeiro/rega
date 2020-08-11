@@ -1,4 +1,4 @@
-import flash
+import flask
 import flask_lambda
 
 app=flask_lambda.FlaskLambda(__name__)

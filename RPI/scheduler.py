@@ -32,12 +32,13 @@ temp_humd=DHT_SENSOR(2)
 while True:
     schedule.run_pending()
     print(temp_humd.read())
-    if cpu.cpu_temp < 47 :
-        print("raspeberry pi too hot")
+    if cpu.cpu_temp > 47.0 :
+        print(f"raspeberry pi too hot {cpu.cpu_temp}")
         relay4.start()
     else:
         relay4.stop()
+        print(f"raspeberry pi is cool {cpu.cpu_temp}")
     cpu.read_cpu_temp()
-    sleep(60)
+    sleep(2)
 
 

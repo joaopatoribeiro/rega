@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction" />
+    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction">
+      <change beforePath="$PROJECT_DIR$/frontend/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/routes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

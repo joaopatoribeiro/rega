@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import Adafruit_DHT  as DHT
+import signal
 
 class RELAY(object):
     def __init__(self,pin,name):
@@ -42,9 +43,14 @@ class READ_CPU_TEMP (object):
         tempC= temp/1000
         tfile.close()
         return tempC
+def cleanup():
+    print('enter register cleanup')
+    GPIO.cleanup()
+    print('exit register cleanup')
 
 
 if __name__ == '__main__' :
+    signal.signal(signal.SIGINT,cleanup)
     cpu=READ_CPU_TEMP()
     print (cpu.read_cpu_temp())
     dth=DHT_SENSOR(2)

@@ -26,13 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction">
-      <change afterPath="$PROJECT_DIR$/frontend/app/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/routes.py" afterDir="false" />
-    </list>
+    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="flask framework with templates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597009969086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="flask framework with templates">
+      <created>1597508835009</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597508835011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="flask framework with templates">
+      <created>1597508969029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597508969029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first file attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="first file attempt" />
+    <MESSAGE value="flask framework with templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask framework with templates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="75" key="#Plugins" timestamp="1596930656674">
@@ -143,19 +152,20 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.808@0.23.1440.808" timestamp="1596930521793" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597503476686">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597508977820">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1597013822182" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1597508977820" />
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1597503476686" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1597010015916" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1597011449187">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.814@0.23.1440.814" timestamp="1597011449187" />
-    <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597503500141">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597508853285">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
+    <state x="518" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.814@0.23.1440.814" timestamp="1597508853285" />
     <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.816@0.23.1440.816" timestamp="1597503500141" />
   </component>
 </project>

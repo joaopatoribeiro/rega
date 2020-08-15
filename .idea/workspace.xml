@@ -16,10 +16,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/website" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction" />
+    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="schedule introduction">
+      <change afterPath="$PROJECT_DIR$/frontend/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/routes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +42,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="website" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +61,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/app/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/app/templates" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -85,7 +106,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/website" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -110,15 +143,19 @@
       <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="408" y="170" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.808@0.23.1440.808" timestamp="1596930521793" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597013822182">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597503476686">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1597013822182" />
-    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1597010168820" />
+    <state x="320" y="166" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1597503476686" />
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1597010015916" />
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1597011449187">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="100" y="123" width="1240" height="608" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.814@0.23.1440.814" timestamp="1597011449187" />
+    <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597503500141">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="518" y="352" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.816@0.23.1440.816" timestamp="1597503500141" />
   </component>
 </project>

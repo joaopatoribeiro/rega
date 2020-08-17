@@ -1,7 +1,6 @@
-import flask
-import flask_lambda
+from flask import Flask
 
-app=flask_lambda.FlaskLambda(__name__)
+app=Flask(__name__)
 
 from app import routes
 

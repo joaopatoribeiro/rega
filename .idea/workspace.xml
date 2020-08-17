@@ -26,7 +26,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="flask framework with templates" />
+    <list default="true" id="f9814e08-16b9-471e-970a-332fc3e9de47" name="Default Changelist" comment="flask framework with templates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/templates/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

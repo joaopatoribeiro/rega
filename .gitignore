@@ -5,3 +5,5 @@ Untitled.ipynb
 /frontend/__pycache__/
 /frontend/app/__pycache__/
 /frontend/env
+Pipfile
+Pipfile.lock

@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6ca91f7ebb428573657a131873e2180e341ab76f38d2d0ff968110547b34c452"
+            "sha256": "19d4de3ede2d8d389fcb2b4a2ad96dbc89b4068c7a1478dc64ed0421c2387adf"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.8"
+            "python_version": "3.7"
         },
         "sources": [
             {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "adafruit-dht": {
+            "hashes": [
+                "sha256:e927f2232eff5335cb9d8a2cca6dcad4625e61f205b12e31ef04198ea6dec830"
+            ],
+            "index": "pypi",
+            "version": "==1.4.0"
+        },
         "argcomplete": {
             "hashes": [
                 "sha256:2fbe5ed09fd2c1d727d4199feca96569a5b50d44c71b16da9c742201f7cc295c",
@@ -116,6 +123,14 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.10"
+        },
+        "importlib-metadata": {
+            "hashes": [
+                "sha256:90bb658cdbbf6d1735b6341ce708fc7024a3e14e99ffdc5783edea9f9b077f83",
+                "sha256:dc15b2969b4ce36305c51eebe62d418ac7791e9a157911d58bfb1f9ccd8e2070"
+            ],
+            "markers": "python_version == '3.7'",
+            "version": "==1.7.0"
         },
         "itsdangerous": {
             "hashes": [
@@ -238,6 +253,13 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==2.24.0"
         },
+        "rpi.gpio": {
+            "hashes": [
+                "sha256:7424bc6c205466764f30f666c18187a0824077daf20b295c42f08aea2cb87d3f"
+            ],
+            "index": "pypi",
+            "version": "==0.7.0"
+        },
         "s3transfer": {
             "hashes": [
                 "sha256:2482b4259524933a022d59da830f51bd746db62f047d6eb213f2f8855dcb8a13",
@@ -311,13 +333,6 @@
             ],
             "version": "==0.4.6"
         },
-        "wtform": {
-            "hashes": [
-                "sha256:65d9c3b50c65a319272b185ed3f859d32b9599d7e118b096f727fdaf14a0616b"
-            ],
-            "index": "pypi",
-            "version": "==1.0"
-        },
         "wtforms": {
             "hashes": [
                 "sha256:7b504fc724d0d1d4d5d5c114e778ec88c37ea53144683e084215eed5155ada4c",
@@ -332,6 +347,14 @@
             ],
             "index": "pypi",
             "version": "==0.51.0"
+        },
+        "zipp": {
+            "hashes": [
+                "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b",
+                "sha256:c599e4d75c98f6798c509911d08a22e6c021d074469042177c8c86fb92eefd96"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.1.0"
         }
     },
     "develop": {}

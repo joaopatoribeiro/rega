@@ -1,11 +1,7 @@
 from app import app
-<<<<<<< HEAD
-from flask import render_template, url_for
 
-=======
 from flask import render_template, url_for, flash, redirect 
 from app.forms import SchedulingForm
->>>>>>> forms
 
 @app.route('/',methods=['GET',])
 @app.route('/index')

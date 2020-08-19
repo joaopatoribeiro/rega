@@ -1,8 +1,8 @@
 from flask_wtf import FlaskForm
-from wtform import StringField
-from wtform.validators import DataRequired, SubmitField
+from wtforms import StringField, SubmitField
+from wtforms.validators import DataRequired
 
-class ScheduleForm(FlaskForm):
+class SchedulingForm(FlaskForm):
     time=StringField('schedule', validators=[DataRequired()])
     circuit=StringField('circuit name', validators=[DataRequired()])
     submit= SubmitField('Enter')

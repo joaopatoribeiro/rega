@@ -1,5 +1,5 @@
 import os
 
 
-Class Config(object):
-    SECRET_KEY = os.enfiron.get('SECRET_KEY') or 'nao-vais-saber-123'
+class Config(object):
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'nao-vais-saber-123'
